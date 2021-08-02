@@ -1,5 +1,5 @@
 {
-  "name": "hello-world",
+  "name": "price-recomm",
   "version": "1.0.0",
   "description": "A simple CAP project.",
   "repository": "<Add your repository here>",
@@ -42,13 +42,7 @@
   },
   "cds": {
     "requires": {
-      "db": {
-        "kind": "sqlite",
-        "model": "*",
-        "credentials": {
-          "database": "db/my-bookshop.db"
-        }
-      }
+
     }
   }
 }
