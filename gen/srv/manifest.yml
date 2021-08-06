@@ -6,4 +6,4 @@ applications:
     buildpacks:
       - nodejs_buildpack
     services:
-      - waste-db
+      - price-recomm-db
