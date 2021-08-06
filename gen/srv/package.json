@@ -1,4 +1,4 @@
- {
+{
   "name": "price-recomm",
   "version": "1.0.0",
   "description": "A simple CAP project.",
@@ -52,5 +52,8 @@
     "hana": {
       "deploy-format": "hdbtable"
     }
+  },
+  "engines": {
+    "node": ">=12.18"
   }
 }

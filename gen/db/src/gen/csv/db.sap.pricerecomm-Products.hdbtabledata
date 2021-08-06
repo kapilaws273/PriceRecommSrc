@@ -1,0 +1,31 @@
+{
+  "format_version": 1,
+  "imports": [
+    {
+      "target_table": "DB_SAP_PRICERECOMM_PRODUCTS",
+      "source_data": {
+        "data_type": "CSV",
+        "file_name": "db.sap.pricerecomm-Products.csv",
+        "has_header": true,
+        "type_config": {
+          "delimiter": ";"
+        }
+      },
+      "import_settings": {
+        "import_columns": [
+          "ID",
+          "LABEL",
+          "CATEGORY_ID",
+          "PRICE_ID"
+        ],
+        "include_filter": []
+      },
+      "column_mappings": {
+        "ID": "ID",
+        "LABEL": "label",
+        "CATEGORY_ID": "category_ID",
+        "PRICE_ID": "price_ID"
+      }
+    }
+  ]
+}
