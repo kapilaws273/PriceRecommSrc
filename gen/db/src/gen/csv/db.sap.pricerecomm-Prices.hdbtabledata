@@ -16,7 +16,7 @@
           "ID",
           "PRICELOW",
           "PRICEHIGH",
-          "CURRENCRY"
+          "CURRENCY"
         ],
         "include_filter": []
       },
@@ -24,7 +24,7 @@
         "ID": "ID",
         "PRICELOW": "priceLow",
         "PRICEHIGH": "priceHigh",
-        "CURRENCRY": "currencry"
+        "CURRENCY": "currency"
       }
     }
   ]

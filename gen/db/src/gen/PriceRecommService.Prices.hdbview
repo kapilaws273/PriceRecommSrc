@@ -3,5 +3,5 @@ VIEW PriceRecommService_Prices AS SELECT
   Prices_0.ID,
   Prices_0.priceLow,
   Prices_0.priceHigh,
-  Prices_0.currencry
+  Prices_0.currency
 FROM db_sap_pricerecomm_Prices AS Prices_0
