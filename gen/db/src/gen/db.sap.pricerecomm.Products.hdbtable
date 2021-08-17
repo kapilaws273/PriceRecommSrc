@@ -4,10 +4,8 @@ COLUMN TABLE db_sap_pricerecomm_Products (
   label NVARCHAR(5000),
   category_ID NVARCHAR(36),
   price_ID NVARCHAR(36),
-  country_code NVARCHAR(3),
   PRIMARY KEY(ID)
 ) WITH ASSOCIATIONS (
   MANY TO ONE JOIN db_sap_pricerecomm_Categories AS category ON (category.ID = category_ID),
-  MANY TO ONE JOIN db_sap_pricerecomm_Prices AS price ON (price.ID = price_ID),
-  MANY TO ONE JOIN sap_common_Countries AS country ON (country.code = country_code)
+  MANY TO ONE JOIN db_sap_pricerecomm_Prices AS price ON (price.ID = price_ID)
 )

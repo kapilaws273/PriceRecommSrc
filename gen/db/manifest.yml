@@ -4,7 +4,7 @@ applications:
     path: .
     no-route: true
     health-check-type: process
-    memory: 128M
+    memory: 256M
     buildpacks:
       - nodejs_buildpack
     services:

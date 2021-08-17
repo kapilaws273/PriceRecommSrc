@@ -2,7 +2,7 @@
 applications:
   - name: price-recomm-srv
     path: .
-    memory: 128M
+    memory: 256M
     buildpacks:
       - nodejs_buildpack
     services:

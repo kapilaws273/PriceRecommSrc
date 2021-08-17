@@ -3,11 +3,9 @@ VIEW PriceRecommService_Products AS SELECT
   Products_0.ID,
   Products_0.label,
   Products_0.category_ID,
-  Products_0.price_ID,
-  Products_0.country_code
+  Products_0.price_ID
 FROM db_sap_pricerecomm_Products AS Products_0
 WITH ASSOCIATIONS (
   MANY TO ONE JOIN PriceRecommService_Categories AS category ON (category.ID = category_ID),
-  MANY TO ONE JOIN PriceRecommService_Prices AS price ON (price.ID = price_ID),
-  MANY TO ONE JOIN PriceRecommService_Countries AS country ON (country.code = country_code)
+  MANY TO ONE JOIN PriceRecommService_Prices AS price ON (price.ID = price_ID)
 )

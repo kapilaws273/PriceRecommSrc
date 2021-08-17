@@ -1,5 +1,5 @@
 ID;label;category_ID;price_ID
 9001;Dell Laptop;101;1001
-9002;Apple Mac Book Pro 2008;102'1002
-9003;HP Ultra Laptop;1003;103
-9004;Moto Flip;1004;104
+9002;Apple Mac Book Pro 2008;102;1002
+9003;HP Ultra Laptop;103;1003
+9004;Moto Flip;104;1004
