@@ -87,6 +87,6 @@ CMD : cds deploy
 
 Task : Add lpo
 
-Run : on browser http://localhost:4004/catalog/Authors?$expand=books($select=ID,title)
+Run : on browser http://localhost:4004/catalog/Authors?$expand=books($5]p[oiuelect=ID,title)
 
 Run: Execute all oData calls in Postmann --Import collection postman.json and then Run all calls. --- Recommonded
