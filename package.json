@@ -45,16 +45,6 @@
   },
   "cds": {
     "requires": {
-      "db": {
-        "kind": "sqlite",
-        "model": "*",
-        "credentials": {
-          "database": "db/my-bookshop.db"
-        }
-      }
-    },
-    "hana": {
-      "deploy-format": "hdbtable"
     }
   }
 }
